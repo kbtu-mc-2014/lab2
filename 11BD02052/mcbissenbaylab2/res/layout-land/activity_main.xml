@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:name="com.example.mcbissenbaylab2.Fragment1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/listview_fragment1" />
+
+    <fragment
+        android:name="com.example.mcbissenbaylab2.Fragment2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/listview_fragment2" />
+
+    <fragment
+        android:name="com.example.mcbissenbaylab2.Fragment3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/textview_fragment3" />
+
+</LinearLayout>
