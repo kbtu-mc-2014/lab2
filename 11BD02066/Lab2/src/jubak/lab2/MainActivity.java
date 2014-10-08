@@ -15,7 +15,7 @@ public class MainActivity extends Activity implements titleEventListener, subEve
 		int titlePos = 0;
 		int subTitlePos = 0;
 		boolean withContent = true;
-
+ 
 		
 		@Override
 		public void onCreate(Bundle savedInstanceState) {

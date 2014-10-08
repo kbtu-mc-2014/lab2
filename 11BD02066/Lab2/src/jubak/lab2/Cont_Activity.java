@@ -12,7 +12,7 @@ public class Cont_Activity extends FragmentActivity {
 	    super.onCreate(savedInstanceState);
 	    
 	        if (getResources().getConfiguration().orientation
-	                == Configuration.ORIENTATION_LANDSCAPE && isLarge()) {
+	                == Configuration.ORIENTATION_LANDSCAPE || isLarge()) {
 	            finish();
 	            return;
 	        }
