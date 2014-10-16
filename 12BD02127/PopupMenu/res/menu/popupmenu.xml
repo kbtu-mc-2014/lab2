@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/ic_launcher"
+            android:title="How I met your mother"/>
+        <item
+            android:id="@+id/menu2"
+            android:title="The Maze Runner"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="Madagaskar">
+        </item>
+    </group>
+    
+    
+  
+    
+     
+
+</menu>

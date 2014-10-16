@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<group android:id="@+id/menugroup2" >
+        <item
+            android:id="@+id/menu4"
+            android:icon="@drawable/ic_launcher"
+            android:title="Adele's new album"/>
+        <item
+            android:id="@+id/menu5"
+            android:title="Kanye West EP"/>
+        <item
+            android:id="@+id/menu6"
+            android:title="The Rolling Stones">
+        </item>
+    </group>    
+
+</menu>
